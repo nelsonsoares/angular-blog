@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+@import '../../../fonts.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu_bar_container {
+  color: $white-color;
+  margin-bottom: 32px;
+}
+
+.menu_bar_container > h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  font-size: 8.4375rem;
+
+  display: flex;
+  justify-content: center;
+}
