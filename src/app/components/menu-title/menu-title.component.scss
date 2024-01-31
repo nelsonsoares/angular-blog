@@ -11,6 +11,10 @@
   margin-bottom: 32px;
 }
 
+hr {
+  border: 1px solid $gray-transparent-color;
+}
+
 .menu_bar_container > h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;

@@ -1,0 +1,47 @@
+@import "../../../variables.scss";
+
+.container_small_card {
+  width: 600px;
+}
+
+.container_small_card_content {
+  display: flex;
+}
+
+.small_card_photo {
+  img {
+    width: 210px;
+    min-width: 210px;
+    min-height: 100%;
+  }
+
+}
+.small_card_title {
+  p {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 0.955rem;
+    padding: 0 18px 0 18px;
+    color: $gray-color;
+  }
+
+  span {
+    color: $gray-color;
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+}
+
+.container_small_card_separator {
+  padding: 16px 0;
+
+  hr {
+    border: 1px solid $gray-transparent-color;
+  }
+}
+
+a {
+  text-decoration: none;
+}

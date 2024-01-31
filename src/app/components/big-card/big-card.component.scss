@@ -1,7 +1,6 @@
-@import '../../../variables.scss';
+@import "../../../variables.scss";
 
 .big_card_container {
-  border: 1px solid #636363;
   width: 25rem;
   height: 31.25rem;
 
@@ -10,13 +9,30 @@
   align-items: center;
 }
 
-.big_card_title > h1 {
-  margin: 5px 0;
-  font-size: 1.25rem;
+.big_card_photo {
+  img {
+    width: 100%;
+    min-width: 200px;
+  }
 }
 
-.big_card_container > .big_card_description > p {
-  text-align: justify;
-  font-size: 0.955rem;
-  color: $gray-color;
+.big_card_title {
+  h1 {
+    margin: 5px 0;
+    font-size: 1.25rem;
+  }
+}
+
+.big_card_description {
+  a {
+    p {
+      text-align: justify;
+      font-size: 0.955rem;
+      color: $gray-color;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
 }
