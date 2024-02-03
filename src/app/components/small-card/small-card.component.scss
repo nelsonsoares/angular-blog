@@ -1,7 +1,7 @@
 @import "../../../variables.scss";
 
 .container_small_card {
-  width: 600px;
+  width: 37.5rem;
 }
 
 .container_small_card_content {
@@ -10,8 +10,8 @@
 
 .small_card_photo {
   img {
-    width: 210px;
-    min-width: 210px;
+    width: 13.125rem;
+    min-width: 13.125rem;
     min-height: 100%;
   }
 
@@ -35,7 +35,7 @@
 }
 
 .container_small_card_separator {
-  padding: 16px 0;
+  padding: 1rem 0;
 
   hr {
     border: 1px solid $gray-transparent-color;
