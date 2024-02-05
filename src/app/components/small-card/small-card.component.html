@@ -2,7 +2,9 @@
   <div class="container_small_card_content">
     <div class="small_card_photo">
       <img
-        src="{{ smallCardPhoto }}"
+        ngSrc="{{ smallCardPhoto }}"
+        width="210"
+        height="121.06"
         alt="{{ smallCardPhotoAlt }}"
         srcset=""
       />
@@ -10,7 +12,7 @@
     <div class="small_card_title">
       <p>
         <span>{{ smallCardData }}</span>
-        <a href="#"> {{ smallCardContent }} </a>
+        <a href="#"> {{ textTransform(smallCardContent) }} </a>
       </p>
     </div>
   </div>

@@ -1,7 +1,9 @@
 <div class="big_card_container">
   <div class="big_card_photo">
     <img
-      src="{{ bigCardPhoto }}"
+      ngSrc="{{ bigCardPhoto }}"
+      width="400"
+      height="266.84"
       alt="{{ bigCardPhotoAlt }}"
       srcset=""
     />
@@ -13,7 +15,7 @@
 
   <div class="big_card_description">
     <a href="#">
-      <p> {{ bigCardContent }} </p>
+      <p> {{ textTransform(bigCardContent) }} </p>
     </a>
   </div>
 </div>
