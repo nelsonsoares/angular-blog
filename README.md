@@ -31,6 +31,7 @@ O projeto é a plicação prática de todo o conteúdo ministrado durante o boot
 - Análise estrutural para uso dos componentes
 - Criação e estilização dos componentes do blog com Saas
 - Adicionando responsividade ao blog ( *EM IMPLEMENTAÇÃO* )
+- Galeria de Fotos, Destaques e Recentes ( *EM IMPLEMENTAÇÃO* )
 - Adicionado dinâmica ao blog
 
 Feito com ♥ by Nelson Soares
