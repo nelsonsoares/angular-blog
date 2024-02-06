@@ -11,6 +11,9 @@
 
 <p align="center">
   <img alt="projeto DevLinks" src="./src/assets/blog-nelson.png" width="100%">
+  <br />
+  <br />
+  <img alt="projeto DevLinks" src="./src/assets/content-page.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
