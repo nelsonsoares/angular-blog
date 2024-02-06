@@ -17,11 +17,11 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+- HTML
+- Saas (scss)
 - TypeScript
 - Git e Github
 - Angular
-- Saas (scss)
 
 ## 🗺️ Roadmap
 
