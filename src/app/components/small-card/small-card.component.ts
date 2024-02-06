@@ -1,14 +1,16 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { RouterLinkWithHref } from '@angular/router';
 
 @Component({
   selector: 'app-small-card',
   standalone: true,
-  imports: [NgOptimizedImage],
+  imports: [NgOptimizedImage, RouterLinkWithHref],
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.scss',
 })
 export class SmallCardComponent {
+  @Input() id: number | null = 0;
   @Input() smallCardPhoto: string = '';
   @Input() smallCardPhotoAlt: string = '';
   @Input() smallCardData: string = '';

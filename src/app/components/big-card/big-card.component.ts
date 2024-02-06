@@ -1,14 +1,16 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { RouterLinkWithHref } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
   standalone: true,
-  imports: [NgOptimizedImage],
+  imports: [NgOptimizedImage, RouterLinkWithHref],
   templateUrl: './big-card.component.html',
   styleUrl: './big-card.component.scss',
 })
 export class BigCardComponent {
+  @Input() id: number | null = 0;
   @Input() bigCardPhoto: string = '';
   @Input() bigCardPhotoAlt: string = '';
   @Input() bigCardTitle: string = '';

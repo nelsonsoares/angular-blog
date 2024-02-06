@@ -10,14 +10,13 @@
         height="121.06"
         alt="{{ smallCardPhotoAlt }}"
         srcset=""
-        rel="preconnect"
         priority
       />
     </div>
     <div class="small_card_title">
       <p>
         <span>{{ smallCardData }}</span>
-        <a href="#"> {{ textTransform(smallCardContent) }} </a>
+        <a [routerLink]="['content', id]"> {{ textTransform(smallCardContent) }} </a>
       </p>
     </div>
   </div>

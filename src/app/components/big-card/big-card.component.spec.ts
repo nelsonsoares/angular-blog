@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BigCardComponent } from './big-card.component';
+import { RouterLinkWithHref } from '@angular/router';
 
 describe('BigCardComponent', () => {
   let component: BigCardComponent;
@@ -8,10 +9,10 @@ describe('BigCardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BigCardComponent]
+      imports: [BigCardComponent, RouterLinkWithHref]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(BigCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

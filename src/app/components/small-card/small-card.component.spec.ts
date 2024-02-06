@@ -11,7 +11,7 @@ describe('SmallCardComponent', () => {
       imports: [SmallCardComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(SmallCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
