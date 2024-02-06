@@ -1,7 +1,7 @@
 <h1 align="center">Angular Blog - Nelson</h1>
 
 <p align="center">
-	Blog feito com Angular e TypeScript no <a href="https://www.dio.me/bootcamp/coding-future-banco-pan-desenvolvimento-frontend-com-angular" target="_blank">BOOTCAMP</a> promovido pela 
+	Blog desenvolvido com Angular e TypeScript durante <a href="https://www.dio.me/bootcamp/coding-future-banco-pan-desenvolvimento-frontend-com-angular" target="_blank">BOOTCAMP</a> promovido pela 
 	<a href="https://www.dio.me/" target="_blank">DIO</a> e pelo <a href="https://www.bancopan.com.br/" target="_blank">BANCO PAN</a> e ministrado pelo 
 	<a href="https://github.com/felipeAguiarCode" target="_blank">Felipe Aguiar</a> 
 <br/>
