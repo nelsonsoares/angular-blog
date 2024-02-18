@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🗺️ Roadmap
 
-O projeto é a plicação prática de todo o conteúdo ministrado durante o bootcamp, onde fiz algumas customizações pessoais tanto no visual quanto na dinâmica do blog.
+O projeto é a aplicação prática de todo o conteúdo ministrado durante o bootcamp, onde fiz algumas customizações pessoais tanto no visual quanto na dinâmica do blog.
 
 - Escolha da referencia para o start do front-end
 - Análise estrutural para uso dos componentes
